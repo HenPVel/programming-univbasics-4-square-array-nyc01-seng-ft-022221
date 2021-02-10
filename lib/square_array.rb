@@ -11,4 +11,4 @@ end
 return square_array
 end
 
-puts square_array(array)
+square_array(array)

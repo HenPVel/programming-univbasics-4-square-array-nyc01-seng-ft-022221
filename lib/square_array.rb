@@ -1,3 +1,5 @@
+array=[1,2,3]
+
 def square_array(array)
   count=0
 while count < array.length do
@@ -7,4 +9,4 @@ end
 return square_array
 end
 
-puts square_array([1,2,3])
+puts square_array(array)

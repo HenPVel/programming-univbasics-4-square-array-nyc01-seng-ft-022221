@@ -6,3 +6,5 @@ while count < array.length do
 end
 return square_array
 end
+
+puts square_array

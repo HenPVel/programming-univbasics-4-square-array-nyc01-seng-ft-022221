@@ -1,14 +1,9 @@
-array=[1,2,3]
-
-require 'pry'
 def square_array(array)
   count=0
+  sq_array=Array.new
 while count < array.length do
-  sq_array=array[count]**2
+  sq_array << array[count]**2
   count+=1
-  binding.pry
 end
-return square_array
+return sq_array
 end
-
-square_array(array)

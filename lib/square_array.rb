@@ -7,4 +7,4 @@ end
 return square_array
 end
 
-square_array(array)
+puts square_array([1,2,3])
